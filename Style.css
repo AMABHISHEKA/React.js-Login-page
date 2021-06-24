@@ -1,0 +1,38 @@
+.login, .signup{
+    position:relative; 
+}
+.login-page, .signup-page{
+    padding:20px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,50%);
+    background: linear-gradient(-80deg, #dcfa30 30%, rgba(0,1,1) 30%);
+}
+.firstname, .lastname, .emailid, .password, .check-agree{
+    font-family: 'Times New Roman', Times, serif;
+    color:#ec7c0c;
+    font-size:24px;
+    margin-bottom:20px;
+}
+.email-id, .pass-word, .first-name, .last-name{
+    font-family: 'Times New Roman', Times, serif;
+    color:#131211;
+    font-size:24px;
+    margin-bottom:20px;
+}
+.button {
+    background-color: #4CAF50; /* Green */
+    border: #fff;
+    color: white;
+    padding: 10px 24px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 14%;
+    margin:5px;    
+  }
+.button:hover{
+    color:#09a509;
+    background-color:#fff;
+}
